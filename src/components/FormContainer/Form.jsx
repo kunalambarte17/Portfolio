@@ -1,51 +1,10 @@
 import React, { useState } from 'react'
 import './Form.css'
-// import { db } from '../../../configs'
-// import { ContactTable } from '../../../configs/schema'
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function Form() {
-
-  // const [formData, setFormData] = useState({
-  //   name: '',
-  //   email: '',
-  //   budget: '',
-  //   message: '',
-  // });
-
-  // const handleInputChange = (e) => {
-  //   const { name, value } = e.target;
-  //   setFormData((prevData) => ({
-  //     ...prevData,
-  //     [name]: value,
-  //   }));
-  //   console.log(formData);
-  // };
-
-  // const onSubmit=async(e)=>{
-  //   e.preventDefault();
-  //   toast.success('Your Data is Stored Successfully', {
-  //     position: "bottom-right",
-  //     autoClose: 3000,
-  //     hideProgressBar: false,
-  //     closeOnClick: false,
-  //     pauseOnHover: false,
-  //     draggable: true,
-  //     progress: undefined,
-  //     theme: "light",
-  //     });
-  //   try{
-  //   const result = await db.insert(ContactTable).values(formData);
-
-  //     if(result){
-  //       console.log("Data Saved")
-  //     }
-  //   }catch(e){
-  //     console.log("Error",e)
-  //   }
-  // }
 
   const [result, setResult] = React.useState("");
 

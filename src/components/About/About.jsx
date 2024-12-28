@@ -6,7 +6,7 @@ function About() {
     <div className="container">
         <div className='main-box'>
             <div className='box1'>
-                <h4><i class="fa-solid fa-bolt"></i> <b>About Me</b></h4>
+                <h4><i className="fa-solid fa-bolt"></i> <b>About Me</b></h4>
                 <div className='text'>
                     <p>I've been close to a computer since an early age, and been passionate about
                         it ever since.</p>
@@ -15,7 +15,7 @@ function About() {
                         <span> React, Javascript</span> and like to explore & learn different things in my spare time.</p>
                     <p>I'm interested in building something awesome with code & automate tasks with code, currently 
                         focused on <span> Web Development, Open Source</span> and <span>Competitive Programming.</span></p>
-                    <p>When I'm not coding I watch movies or play cricket with my friends! <i class="fa-solid fa-heart"></i></p>    
+                    <p>When I'm not coding I watch movies or play cricket with my friends! <i className="fa-solid fa-heart"></i></p>    
                 </div>
             </div>
 
