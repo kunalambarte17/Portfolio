@@ -24,7 +24,7 @@ function ProjectCard() {
                      <button property='button' className="btn r-btn"><i className="fa-brands fa-react"></i> React</button>
                      <button property='button' className="btn j-btn"><i className="fa-brands fa-js"></i> Javascript</button>
                     </div>
-                    <p className="c-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="c-text">This Site is used to order food.</p>
                     <div className='btn-pair2'>
                         <a href="https://github.com/kunalambarte17/Tomato" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
                         <a href="https://tomato-yum.vercel.app/" className="btn btn-primary">Visit <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -41,7 +41,7 @@ function ProjectCard() {
                      <button property='button' className="btn e-btn"><i className="fa-brands fa-node-js"></i> Ejs</button>
                      <button property='button' className="btn j-btn"><i className="fa-brands fa-js"></i> Javascript</button>
                     </div>
-                    <p className="c-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="c-text">This site is used to book a villa or user can add there own.</p>
                     <div className='btn-pair2'>
                         <a href="https://github.com/kunalambarte17/WanderVillas" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
                         <a href="https://travelbroad.onrender.com/listings" className="btn btn-primary">Vist <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -58,7 +58,7 @@ function ProjectCard() {
                      <button property='button' className="btn r-btn"><i className="fa-brands fa-react"></i> React</button>
                      <button property='button' className="btn j-btn"><i className="fa-brands fa-js"></i> Javascript</button>
                     </div>
-                    <p className="c-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="c-text">This site is used to buy and sell the Car. User can also give car on rent.</p>
                     <div className='btn-pair2'>
                         <a href="https://github.com/kunalambarte17/AutoBots" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
                     </div>
@@ -73,7 +73,7 @@ function ProjectCard() {
                     <div className='btn-pair d-flex'>
                      <button property='button' className="btn r-btn"><i className="fa-brands fa-css3"></i> Tailwind</button>
                     </div>
-                    <p className="c-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="c-text">This is just webpage of the Restaurant as such there is no functionalities.</p>
                     <div className='btn-pair2'>
                         <a href="#" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
                     </div>
@@ -88,7 +88,7 @@ function ProjectCard() {
                     <div className='btn-pair d-flex'>
                      <button property='button' className="btn r-btn"><i className="fa-brands fa-css3"></i> Tailwind</button>
                     </div>
-                    <p className="c-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="c-text">This is just webpage of the Anime as such there is no functionalities.</p>
                     <div className='btn-pair2'>
                         <a href="https://github.com/kunalambarte17/Anime-Site" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
                         <a href="https://anime-site-indol.vercel.app/" className="btn btn-primary">Visit <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
