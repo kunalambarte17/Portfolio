@@ -1,149 +1,86 @@
-.skill-title{
-    font-size: 3rem;
-    margin-top: 100px;
-    font-weight: 700;
+.skills{
+    margin: 8rem 10rem 0 10rem;
+}
+.skill-name{
     color: white;
+    background-color: transparent;
+}
+.skill-heading{
     text-align: center;
 }
-.box-container{
-    margin: 40px 70px 0px 60px;
+.skill-heading h1{
+    font-weight: 700;
+    font-size: 4rem;
+    color: white;
+}
+.skill-container{
+    margin: 3rem 10rem 0 10rem;
+}
+
+.skill-tech-heading{
+    font-size: xx-large;
+    font-weight: 700;
+    color: #b09649;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.skill-list{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
 }
-.box{
-    margin: 1rem;
-    background-color: #ffffff14;
-    height: 60px;
-    width: 210px;
-    border-radius: 0.5rem;
+
+.skill-list-li{
     display: flex;
-}
-.mini-box{
-    height: 50px;
-    width: 65px;
-    /* border: 0.2px solid white; */
-    margin-left: 5px;
-    margin-top: 4px;
-    border-radius: 0.5rem;
-    display: flex;
-}
-.s-logo{
-    height: 40px;
-    width: 40px;
-    margin:5px 0px 0px 10px;
-}
-.l-title{
-    color: white;
-    background-color: transparent;
-    font-size:1.5rem;
-    font-weight: normal;
-    margin:12px 0px 0px 28px;
-}
-.m-logo{
-    height: 40px;
-    width: 40px;
-    margin:5px 0px 0px 20px;
-    background-color: transparent;
-}
-.m-title{
-    color: white;
-    background-color: transparent;
-    font-size:1.5rem;
-    font-weight: normal;
-    margin:10px 0px 0px 40px;
+    align-items: center;
+    gap: 0.75rem; /* 12px */
+    border-radius: 6px;
+    padding: 11px 12px;
+    background-color: rgba(255, 255, 255, 0.04); /* Semi-transparent white */
+    backdrop-filter: blur(32px);
 }
 
-#js{
-    background-color: #faf0898d;
+.skill-img-div{
+    padding: 0.5rem; /* 8px */
+    display: flex; /* Required for items-center and justify-center */
+    align-items: center; /* Vertical alignment */
+    justify-content: center; /* Horizontal alignment */
+    border-radius: 0.5rem; /* 8px */
 }
-#react{
-    background-color: #90cef4ac;
-}
-#socket{
-    background-color: rgba(255, 255, 255, 0.568);
-}
-#git{
-    background-color: #ff562283;
-}
-/* #github{
-     
-} */
-#html{
-    background-color: rgba(255, 166, 0, 0.653);
-}
-/* #css{
 
+.skill-img{
+    flex-shrink: 0; /* Prevent shrinking */
+    height: 1.25rem; /* 20px height */
+    width: 1.25rem; 
 }
-#boot{
 
-}
-#tail{
-
-}
-#node{
-
-}
-#express{
-
-}
-#npm{
-
-}
-#mysql{
-
-}
-#mongo{
-
-}
-#post{
-
-}
-#vscode{
-
-} */
-
-
-
-@media (width<1200px){
-    .box-container{
-        display: grid;
+@media (width<1287px){
+    .skills{
+        margin: 4rem 2rem 0 2rem;
+    }
+    .skill-list{
         grid-template-columns: repeat(3,1fr);
     }
+    .skill-container{
+        margin: 0;
+    }
+    .skill-heading{
+        margin-bottom: 2rem;
+    }
+    
+
 }
-@media (width<1000px){
-    .box-container{
-        margin: 0px 0px 0px 0px;
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
+
+@media (width<950px) {
+    .skill-heading h1{
+        font-size: 3rem;
     }
 }
-@media (width<770px){
-    .box-container{
-        display: grid;
+
+@media (width<650px){
+    
+    .skill-list{
         grid-template-columns: repeat(2,1fr);
     }
-}
-@media (width<580px){
-    .box{
-        width: 200px;
-    }
-    .l-title{
-        font-size: 1.3rem;
-    }
-
-}
-@media (width<580px){
-    .box{
-        width: 180px;
-        height: 50px;
-    }
-    .mini-box{
-        width: 55px;
-        height: 40px;
-    }
-    .s-logo
-    .l-title{
-        font: hidden;
-    }
-
 }
