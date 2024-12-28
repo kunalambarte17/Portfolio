@@ -1,0 +1,30 @@
+import React from 'react'
+import "./About.css"
+import avatar from "../../assets/avatar.webp"
+function About() {
+  return (
+    <div className="container">
+        <div className='main-box'>
+            <div className='box1'>
+                <h4><i class="fa-solid fa-bolt"></i> <b>About Me</b></h4>
+                <div className='text'>
+                    <p>I've been close to a computer since an early age, and been passionate about
+                        it ever since.</p>
+                    <p>I'm a visual learner and a self-taught developer with 2+ years of professional experience 
+                        in turning ideas into projects. I primarily engage in front-end development using 
+                        <span> React, Javascript</span> and like to explore & learn different things in my spare time.</p>
+                    <p>I'm interested in building something awesome with code & automate tasks with code, currently 
+                        focused on <span> Web Development, Open Source</span> and <span>Competitive Programming.</span></p>
+                    <p>When I'm not coding I watch movies or play cricket with my friends! <i class="fa-solid fa-heart"></i></p>    
+                </div>
+            </div>
+
+            <div className='box2'>
+                    <img src={avatar} alt="" />
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default About

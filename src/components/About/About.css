@@ -1,0 +1,61 @@
+.main-box{
+    margin-top: 150px;
+    display: flex;
+    gap: 5rem;
+    margin-left: 60px;
+}
+.box1{
+    width: 650px;
+}
+.box1 h4{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.box1 i{
+    color: orange;
+}
+.text p{
+    font-size: 18px;
+    color: #8f9094;
+}
+.text p span{
+    color: #3ccf91;
+}
+.text i{
+    color: red;
+}
+
+.box2 img{
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: yellow; 
+    margin-top: 50px;
+}
+
+
+
+
+@media (width<900px){
+    .main-box{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 120px;
+    }
+    .box1{
+        width: 100%;
+    }
+    .box2{
+        text-align: center;
+    }
+}
+@media (width<1200px){
+    .main-box{
+        margin-left: 0px;
+    }
+}

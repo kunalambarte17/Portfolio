@@ -1,0 +1,29 @@
+.footer{
+    margin-top: 70px;
+    height: 100px;
+    width: 100%;
+    border-top: 0.5px solid rgb(55, 56, 62);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p{
+    color: #ffffff;
+    margin:0px 20px 0px 20px;
+}
+.footer i{
+    color: red;
+}
+
+
+@media (width<530){
+    .footer{
+        width: auto;
+    }
+}
+@media (width<500px){
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,51 @@
+.in-touch{
+    text-align: center;
+    margin-top: 100px;
+}
+.in-touch h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+.in-touch p{
+    color: #8f9094;
+    margin-top: 40px;
+}
+.in-touch span{
+    color: #3ccf91;
+}
+.extra{
+    color: #8f9094;
+    font-size:1.5rem;
+    margin-top: 40px;
+}
+.extra i{
+    color: orange;
+}
+.btn{
+    background-color: #ffffff14;
+    color: #ffffff ;
+    border: none;
+    margin-right: 1rem;
+    margin-top: 25px;
+    font-weight: bold;
+}
+.get-logos i{
+    color: #3ccf91;
+    margin-right: 5px;
+}
+
+@media (width<750px){
+    .in-touch h2{
+        font-size: 2rem;
+    }
+
+}
+@media (width<450px){
+    .get-logos span{
+        display: none;
+    }
+    .btn{
+        border-radius: 50%;
+    }
+}

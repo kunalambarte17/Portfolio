@@ -1,0 +1,25 @@
+.resume{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.resume-img{
+    /* border: 1px solid white; */
+    width: 80%;
+    height: 100%;
+}
+
+/* .btn{
+    padding: 10px 30px;
+    font-size: 1.4rem;
+} */
+.resume-img img{
+    height: 100%;
+    width: 100%;
+
+}
+i{
+    background-color: transparent;
+}
