@@ -75,7 +75,7 @@ function ProjectCard() {
                     </div>
                     <p className="c-text">This is just webpage of the Restaurant as such there is no functionalities.</p>
                     <div className='btn-pair2'>
-                        <a href="#" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
+                        <a href="https://github.com/kunalambarte17/Restaurant_WebSite" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
                     </div>
                 </div>
             </div>
