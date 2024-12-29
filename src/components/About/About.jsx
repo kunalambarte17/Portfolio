@@ -1,9 +1,19 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./About.css"
 import avatar from "../../assets/avatar.webp"
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 function About() {
+    useEffect(()=> {
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    }, [])
   return (
-    <div className="container">
+    <div className="container" data-aos="slide-up">
         <div className='main-box'>
             <div className='box1'>
                 <h4><i className="fa-solid fa-bolt"></i> <b>About Me</b></h4>

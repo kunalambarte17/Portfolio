@@ -1,9 +1,15 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./Contact.css"
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 function Contact() {
+  useEffect(()=> {
+    AOS.init({duration: 1000, once: true});
+  }, [])
   return (
-    <div className='container in-touch'>
+    <div className='container in-touch' data-aos="slide-up">
       <h2>Keep In Touch.</h2>
       <p>I'm currently specializing in<span> Full Stack Development.</span><br />
         feel free to get in touch and talk more about your projects.</p>

@@ -1,10 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import './Form.css'
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 function Form() {
+    useEffect(()=> {
+      AOS.init({duration: 1000, once: true});
+    }, [])
 
   const [result, setResult] = React.useState("");
 
@@ -41,7 +47,7 @@ function Form() {
   };
 
   return (
-    <div className='heading'>
+    <div className='heading' data-aos="slide-up">
       <h2>Let's Work <span>Together</span></h2>
       <div className='container contact-box'>
       <form onSubmit={onSubmit}>

@@ -1,3 +1,4 @@
+import React, {useEffect} from 'react'
 import './Skills.css'
 import boot from '../../assets/skills/boot.png'
 import css from '../../assets/skills/css.png'
@@ -19,9 +20,15 @@ import vite from '../../assets/skills/vite.png'
 import vscode from '../../assets/skills/vscode.png'
 import tailwind from '../../assets/skills/tailwind.png'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const Skills = () => {
+  useEffect(()=> {
+    AOS.init({duration: 1000, once: true});
+  }, [])
   return (
-    <div id='skills' className='skills'>
+    <div id='skills' className='skills' data-aos="slide-up">
       <div className="skill-heading">
         <h1>Skills</h1>
       </div>

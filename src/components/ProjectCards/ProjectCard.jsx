@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./ProjectCard.css"
 import Anime from '../../assets/Pro_Img/Anime.png'
 import Auto from '../../assets/Pro_Img/Auto.png'
@@ -6,14 +6,21 @@ import Food from '../../assets/Pro_Img/Food.png'
 import Villa from '../../assets/Pro_Img/Villa.png'
 import Rest from '../../assets/Pro_Img/Rest.png'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 function ProjectCard() {
+  useEffect(()=> {
+    AOS.init({duration: 1000, once: true});
+  }, [])
+
   return (
-    <div className=''>
+    <div className='ProjectCard-block'>
         <div className='info'>
         <h2 className='title'>Projects</h2>
         <p className='text'>I love building projects and practice my engineering skills, here's an archive of things that I've worked on.</p>
         </div>
-        <div className='card-container container'>
+        <div className='card-container container' data-aos="zoom-in-up">
             <div className="card-box1">
                 <div className="img-box card-img-top">
                     <img src={Food} alt="" />
