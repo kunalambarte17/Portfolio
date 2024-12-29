@@ -6,7 +6,6 @@ function MainSec() {
   return (
     <div className='container main'>
         <div className='main-contents'>
-          {/* <img src={dotted} height={150} className='color'/> */}
           <img src={dot} className='dotted' height={150} />
             <div className='h2'>
                 <p>Hey there!, I'm-</p>

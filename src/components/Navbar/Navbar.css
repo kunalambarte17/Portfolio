@@ -11,7 +11,6 @@
 .logo {
     height: 70px;
     width: 70px;
-    /* background-blend-mode: transparent; */
 }
 
 .nav_menu {
@@ -53,10 +52,7 @@
 .anchor-link{
     color: white;
     text-decoration: none;
-    /* background-color: #1e202981; */
 }
-
-/* 768px */
 
 @media (max-width:1287px) {
     .nav-connect{

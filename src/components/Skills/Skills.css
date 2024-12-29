@@ -35,19 +35,19 @@
 .skill-list-li{
     display: flex;
     align-items: center;
-    gap: 0.75rem; /* 12px */
+    gap: 0.75rem;
     border-radius: 6px;
     padding: 11px 12px;
-    background-color: rgba(255, 255, 255, 0.04); /* Semi-transparent white */
+    background-color: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(32px);
 }
 
 .skill-img-div{
-    padding: 0.5rem; /* 8px */
-    display: flex; /* Required for items-center and justify-center */
-    align-items: center; /* Vertical alignment */
-    justify-content: center; /* Horizontal alignment */
-    border-radius: 0.5rem; /* 8px */
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 0.5rem;
 }
 
 .skill-img{
@@ -55,6 +55,27 @@
     height: 1.25rem; 
     width: 1.25rem; 
 }
+
+.react{ background-color: #007acc26 ;}
+.js{ background-color: #f0db4f26;}
+.html{ background-color: #dd4b2526;}
+.css{background-color: #264de426;}
+.tail{background-color: #44a8b326;}
+.boot{background-color: #6d10f426;}
+.material{background-color: #7ebae226;}
+.node{background-color: #6fa66026;}
+.express{background-color: #6fa66026;}
+.mongo{background-color: #6fa66026;}
+.sql{background-color: #3bbdb314;}
+.next{background-color: #ffffff14;}
+.vite{background-color: #6e97fe26;}
+.vs{background-color: #33abe326;}
+.nvim{background-color: #55e53926;}
+.git{background-color: #e671711f;}
+.hub{background-color: #ffffff14;}
+.npm{background-color: #cc000026;}
+.figma{background-color: #ffffff14;}
+
 
 @media (width<1287px){
     .skills{

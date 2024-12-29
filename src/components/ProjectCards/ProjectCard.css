@@ -43,7 +43,7 @@ img{
     background-color: transparent;
     margin-bottom: 0px;
     padding-left: 30px;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 .c-text{
     color: #8f9094;
@@ -57,38 +57,20 @@ img{
     margin-bottom: 20px;
 }
 .btn-pair{
-    background-color: transparent;
+    display: grid;
+    gap: 1rem;
     padding-left: 30px;
+    margin: 10px 0px 20px 0px;
 }
 .btn-pair2{
     background-color: transparent;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 15px;
     display: flex;
     padding-left: 30px;
     gap: 2rem;
 }
-.r-btn{
-    color: #90cdf4;
-    background-color: #90cdf429;
-}
-.r-btn:hover{
-    background-color: #90cdf4;
-}
-.e-btn{
-    color: #93234e;
-    background-color: #9c22513f;
-}
-.e-btn:hover{
-    background-color: #93234e;
-}
-.j-btn{
-    color: #faf089;
-    background-color: #faf08929;
-}
-.j-btn:hover{
-    background-color: #faf089;
-}
+
 @media (width<1300px){
     .card-container{
         margin-left: 90px;
@@ -112,9 +94,10 @@ img{
     }
     .card-box1{
         width: 400px;
+        height: 450px;
     }
     img{
-        width: 400px;
+        width: 398px;
     }
 }
 @media (width<1060px){
@@ -163,9 +146,12 @@ img{
     }
     .card-box1{
         width: 280px;
-        /* height: 450px; */
     }
     img{
         width: 280px;
+    }
+    .btn-pair{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }

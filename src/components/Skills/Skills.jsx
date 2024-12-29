@@ -37,43 +37,43 @@ const Skills = () => {
           <h3 className='skill-tech-heading'>Frontend</h3>
           <ul className="skill-list">
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#007acc26]">
+              <div className="skill-img-div react bg-[#007acc26]">
                 <img src={react} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>React</span>
             </li>
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#f0db4f26]">
+              <div className="skill-img-div js bg-[#f0db4f26]">
                 <img src={js} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>Javascript</span>
             </li>
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#dd4b2526]">
+              <div className="skill-img-div html bg-[#dd4b2526]">
                 <img src={html} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>HTML</span>
             </li>
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#264de426]">
+              <div className="skill-img-div css bg-[#264de426]">
                 <img src={css} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>CSS</span>
             </li>
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#44a8b326]">
+              <div className="skill-img-div tail bg-[#44a8b326]">
                 <img src={tailwind} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>Tailwind</span>
             </li>
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#6d10f426]">
+              <div className="skill-img-div boot bg-[#6d10f426]">
                 <img src={boot} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>Bootstrap</span>
             </li>
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#7ebae226]">
+              <div className="skill-img-div material bg-[#7ebae226]">
                 <img src={materialUi} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>Material UI</span>
@@ -84,94 +84,82 @@ const Skills = () => {
           <h3 className='skill-tech-heading'>Backend</h3>
           <ul className="skill-list">
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#6fa66026]">
+              <div className="skill-img-div node bg-[#6fa66026]">
                 <img src={node} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>Node.js</span>
             </li>
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#6fa66026]">
+              <div className="skill-img-div express bg-[#6fa66026]">
                 <img src={express} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>Express</span>
             </li>
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#6fa66026]">
+              <div className="skill-img-div mongo bg-[#6fa66026]">
                 <img src={mongo} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>MongoDb</span>
             </li>
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#3bbdb314]">
+              <div className="skill-img-div sql bg-[#3bbdb314]">
                 <img src={sql} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>MySQL</span>
             </li>
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#ffffff14]">
+              <div className="skill-img-div next bg-[#ffffff14]">
                 <img src={nextjs1} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>Next.js</span>
             </li>
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#6e97fe26]">
+              <div className="skill-img-div vite bg-[#6e97fe26]">
                 <img src={vite} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>Vite</span>
             </li>
-            {/* <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#007acc26]">
-                <img src={materialUi} alt="" className='skill-img' />
-              </div>
-              <span className='skill-name'>Material UI</span>
-            </li> */}
           </ul>
         </div>
         <div className="skill-tech-name mt-[3rem]">
           <h3 className='skill-tech-heading'>Tools</h3>
           <ul className="skill-list">
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#33abe326]">
+              <div className="skill-img-div vs bg-[#33abe326]">
                 <img src={vscode} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>VScode</span>
             </li>
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#55e53926]">
+              <div className="skill-img-div nvim bg-[#55e53926]">
                 <img src={nvim} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>Nvim</span>
             </li>
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#e671711f]">
+              <div className="skill-img-div git bg-[#e671711f]">
                 <img src={git} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>Git</span>
             </li>
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#ffffff14] ">
+              <div className="skill-img-div hub bg-[#ffffff14] ">
                 <img src={github} alt="" className='skill-img ' />
               </div>
               <span className='skill-name'>Github</span>
             </li>
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#cc000026]">
+              <div className="skill-img-div npm bg-[#cc000026]">
                 <img src={npm} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>npm</span>
             </li>
             <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#ffffff14]">
+              <div className="skill-img-div figma bg-[#ffffff14]">
                 <img src={figma} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>Figma</span>
             </li>
-            {/* <li className='skill-list-li'>
-              <div className="skill-img-div bg-[#007acc26]">
-                <img src={materialUi} alt="" className='skill-img' />
-              </div>
-              <span className='skill-name'>Material UI</span>
-            </li> */}
           </ul>
         </div>
       </div>
