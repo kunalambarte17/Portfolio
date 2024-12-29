@@ -1,34 +1,42 @@
-import React from 'react'
-import "./Navbar.css"
+import './Navbar.css'
+import menu_open from '../../assets/menu_open.svg'
+import menu_close from '../../assets/menu_close.svg'
+import { useRef , useState } from 'react'
+
+
 import { Link } from 'react-router-dom'
 import logo from "../../assets/logoo.png"
 
-function Navbar() {
+const Navbar = () => {
+     
+    const[menu, setMenu] = useState("home");
+
+    const menuRef = useRef();
+
+    const openMenu = () => {
+    menuRef.current.style.right = '0';
+    }
+    const closeMenu = () => {
+    menuRef.current.style.right = '-350px';
+    }
+
   return (
-    <>
-      <div className='navbar navbar-expand-md fixed-top'>
-        <div className="logo">
-          <Link to={'/'}>
-           <img src={logo} />
-          </Link>
-        </div>
-        <div className="list-contain">
-          <div className='offcanvas-body'>
-            <ul className="list-item">
-              <Link to={'/'} className='li'>
-                <li className='nav-item'>Home</li>
-              </Link>
-              <Link to={'/project'} className='li'>
-                <li className='nav-item'>Project</li>
-              </Link>
-              <Link to={'/resume'} className='li'>
-                <li className='nav-item'>Resume</li>
-              </Link>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </>
+    <div className="navbar">
+        <Link to={'/'}>
+        <img src={logo} alt="" className="logo"/>
+        </Link>
+        <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open'/>
+
+        <ul ref={menuRef} className="nav_menu">
+            <img src={menu_close} onClick={closeMenu} alt="" className='nav-mob-close' />
+            
+            <li><Link className='anchor-link' to={'/'}><p>Home</p></Link></li>
+            <li><Link className='anchor-link' to={'/project'}><p>Project</p></Link></li>
+            <li><Link className='anchor-link' to={'/resume'}><p>Resume</p></Link></li>
+            
+            
+        </ul>
+    </div>
   )
 }
 
