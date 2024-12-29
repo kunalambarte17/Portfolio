@@ -120,7 +120,6 @@ img{
 @media (width<1060px){
     .card-container{
         margin-left: 60px;
-        /* grid-template-columns: auto; */
         gap: 1rem;
     }
     .info{
