@@ -1,5 +1,5 @@
 .skills{
-    margin: 8rem 10rem 0 10rem;
+    margin: 8rem 8rem 0 8rem;
 }
 .skill-name{
     color: white;
@@ -20,7 +20,7 @@
 .skill-tech-heading{
     font-size: xx-large;
     font-weight: 700;
-    color: #b09649;
+    color: #ffffff70;
     margin-bottom: 1rem;
     margin-left: 2rem;
 }
@@ -50,8 +50,8 @@
 }
 
 .skill-img{
-    flex-shrink: 0; /* Prevent shrinking */
-    height: 1.25rem; /* 20px height */
+    flex-shrink: 0; 
+    height: 1.25rem; 
     width: 1.25rem; 
 }
 
@@ -68,18 +68,18 @@
     .skill-heading{
         margin-bottom: 2rem;
     }
-    
-
 }
-
 @media (width<950px) {
     .skill-heading h1{
         font-size: 3rem;
     }
 }
-
-@media (width<650px){
-    
+@media (width<700px){
+    .skill-list{
+        padding-left:0px ;
+    }
+}
+@media (width<650px){  
     .skill-list{
         grid-template-columns: repeat(2,1fr);
     }
