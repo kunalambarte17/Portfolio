@@ -8,7 +8,7 @@
 .title{
     font-size: 3.5rem;
     font-weight: 790;
-    margin-top: 120px;
+    margin-top: 70px;
     color: #ffffff;
 }
 .text{
@@ -28,7 +28,7 @@
     border: 1px solid #ffffff14;
     margin-bottom:50px;
     border-radius: 1rem;
-    /* background-color: #111111; */
+    background-color: transparent;
 }
 img{
     width: 498px;
@@ -40,14 +40,14 @@ img{
 .c-title{
     color: #ffffff;
     font-size: 2rem;
-    /* background-color: #111111; */
+    background-color: transparent;
     margin-bottom: 0px;
     padding-left: 30px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .c-text{
     color: #8f9094;
-    /* background-color: #111111; */
+    background-color: transparent;
     margin-bottom: 0px;
     padding-left: 30px;
 }
@@ -57,15 +57,14 @@ img{
     margin-bottom: 20px;
 }
 .btn-pair{
-    /* background-color: #111111; */
+    background-color: transparent;
     padding-left: 30px;
 }
 .btn-pair2{
-    /* background-color: #111111; */
+    background-color: transparent;
     text-align: center;
     padding-top: 20px;
     display: flex;
-    /* justify-content: center; */
     padding-left: 30px;
     gap: 2rem;
 }
@@ -90,9 +89,6 @@ img{
 .j-btn:hover{
     background-color: #faf089;
 }
-
-
-
 @media (width<1300px){
     .card-container{
         margin-left: 90px;
@@ -131,6 +127,11 @@ img{
         margin-right: 0px;
     }
 }
+@media (width<950px){
+    .card-container{
+        margin-left: 30px;
+    }
+}
 @media (width<700px){
     .card-container{
         margin-left: 30px;
@@ -163,7 +164,7 @@ img{
     }
     .card-box1{
         width: 280px;
-        height: 420px;
+        /* height: 450px; */
     }
     img{
         width: 280px;
