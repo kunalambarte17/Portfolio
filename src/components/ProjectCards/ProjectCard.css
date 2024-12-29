@@ -57,7 +57,8 @@ img{
     margin-bottom: 20px;
 }
 .btn-pair{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     padding-left: 30px;
     margin: 10px 0px 20px 0px;
@@ -146,12 +147,13 @@ img{
     }
     .card-box1{
         width: 280px;
+        height: 465px;
     }
     img{
         width: 280px;
     }
-    .btn-pair{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+    .c-text, .c-title, .btn-pair, .btn-pair2{
+        padding-left: 15px;
     }
+
 }
