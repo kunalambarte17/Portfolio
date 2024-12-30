@@ -7,7 +7,7 @@
     font-weight: 700;
     color: #ffffff;
 }
-.in-touch p{
+.in-touch .keep-text{
     color: #8f9094;
     margin-top: 40px;
 }
@@ -39,7 +39,12 @@
     .in-touch h2{
         font-size: 2rem;
     }
-
+    .in-touch{
+        margin-left: 15px;
+    }
+    .keep-text, h2{
+        padding-right: 20px;
+    }
 }
 @media (width<450px){
     .get-logos span{

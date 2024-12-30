@@ -33,7 +33,7 @@
 }
 .extra{
     color: #8f9094;
-    font-size:1.5rem;
+    font-size:1.5rem !important;
     margin-top: 40px;
 }
 .extra span{
@@ -85,15 +85,15 @@
         font-size: 18px;
     }
     .extra{
-        font-size: 18px;
+        font-size: 18px !important;
     }
 }
-@media (width<580){
+@media (width<580px){
     .dotted{
         margin-left: -20px;
     }
     .extra{
-        font-size: 12px;
+        font-size: 17px !important;
     }
 }
 @media (width<430px){

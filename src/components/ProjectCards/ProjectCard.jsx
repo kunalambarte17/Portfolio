@@ -57,7 +57,7 @@ function ProjectCard() {
                             <img src={npm} alt="" className='skill-img' />
                         </div>               
                     </div>
-                    <p className="c-text">This Site is used to order food.</p>
+                    <p className="c-text">This Site is used to order food. User can add items as many as they want. Can Check it in cart.</p>
                     <div className='btn-pair2'>
                         <a href="https://github.com/kunalambarte17/Tomato" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
                         <a href="https://tomato-yum.vercel.app/" className="btn btn-primary">Visit <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -90,7 +90,7 @@ function ProjectCard() {
                            <img src={npm} alt="" className='skill-img' />
                         </div>
                     </div>
-                    <p className="c-text">This site is used to book a villa or user can add there own.</p>
+                    <p className="c-text">This site is used to book a villa and User can share there own listings for other users.</p>
                     <div className='btn-pair2'>
                         <a href="https://github.com/kunalambarte17/WanderVillas" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
                         <a href="https://travelbroad.onrender.com/listings" className="btn btn-primary">Vist <i className="fa-solid fa-arrow-up-right-from-square"></i></a>

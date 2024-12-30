@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.footer p{
+.footer .p{
     color: #ffffff;
     margin:0px 20px 0px 20px;
 }
@@ -16,9 +16,12 @@
 }
 
 
-@media (width<530){
+@media (width<530px){
     .footer{
         width: auto;
+    }
+    .footer .p1{
+        text-align: end;
     }
 }
 @media (width<500px){

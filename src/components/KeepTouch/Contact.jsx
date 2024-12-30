@@ -11,7 +11,7 @@ function Contact() {
   return (
     <div className='container in-touch' data-aos="slide-up">
       <h2>Keep In Touch.</h2>
-      <p>I'm currently specializing in<span> Full Stack Development.</span><br />
+      <p className='keep-text'>I'm currently specializing in<span> Full Stack Development.</span><br />
         feel free to get in touch and talk more about your projects.</p>
         <div className='get-logos'>
               <a href="https://github.com/kunalambarte17" target='_main'>
