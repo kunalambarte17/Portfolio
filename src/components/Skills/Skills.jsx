@@ -19,6 +19,8 @@ import sql from '../../assets/skills/sql.png'
 import vite from '../../assets/skills/vite.png'
 import vscode from '../../assets/skills/vscode.png'
 import tailwind from '../../assets/skills/tailwind.png'
+import postgre from '../../assets/skills/postgre.svg'
+import socket from '../../assets/skills/socket.svg'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -106,6 +108,18 @@ const Skills = () => {
                 <img src={sql} alt="" className='skill-img' />
               </div>
               <span className='skill-name'>MySQL</span>
+            </li>
+            <li className='skill-list-li'>
+              <div className="skill-img-div next bg-[#ffffff14]">
+                <img src={socket} alt="" className='skill-img' />
+              </div>
+              <span className='skill-name'>Socket.io</span>
+            </li>
+            <li className='skill-list-li'>
+              <div className="skill-img-div tail bg-[#007acc26]">
+                <img src={postgre} alt="" className='skill-img' />
+              </div>
+              <span className='skill-name'>Postgre Sql</span>
             </li>
             <li className='skill-list-li'>
               <div className="skill-img-div next bg-[#ffffff14]">
