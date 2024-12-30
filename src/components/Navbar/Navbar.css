@@ -5,6 +5,7 @@
     border-bottom: 0.5px solid rgb(55, 56, 62);
     padding: 10px 20px;
     position: sticky;
+    top: 0px;
     z-index: 1000;
 }
 
