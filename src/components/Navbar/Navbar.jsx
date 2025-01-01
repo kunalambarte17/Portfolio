@@ -1,11 +1,14 @@
 import './Navbar.css'
 import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
-import { useRef , useState } from 'react'
+import { useRef , useState , useEffect } from 'react'
 
 
 import { Link } from 'react-router-dom'
 import logo from "../../assets/logoo.png"
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Navbar = () => {
      
@@ -20,8 +23,12 @@ const Navbar = () => {
     menuRef.current.style.right = '-350px';
     }
 
+    useEffect(()=> {
+      AOS.init({duration: 1000, once: true});
+    }, [])
+
   return (
-    <div className="navbar">
+    <div className="navbar" data-aos="fade-down">
         <Link to={'/'}>
         <img src={logo} alt="" className="logo"/>
         </Link>
