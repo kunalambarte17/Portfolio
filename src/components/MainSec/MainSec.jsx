@@ -1,10 +1,18 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./MainSec.css"
 import dot from '../../assets/dotted.svg'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 function MainSec() {
+
+  useEffect(()=> {
+      AOS.init({duration: 1000, once: true});
+    }, [])
+
   return (
-    <div className='container main'>
+    <div className='container main' data-aos="fade">
         <div className='main-contents'>
           <img src={dot} className='dotted' height={150} />
             <div className='h2'>
