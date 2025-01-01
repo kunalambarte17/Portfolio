@@ -8,7 +8,7 @@ import 'aos/dist/aos.css'
 function MainSec() {
 
   useEffect(()=> {
-      AOS.init({duration: 1000, once: true});
+      AOS.init({duration: 2000, once: true});
     }, [])
 
   return (
