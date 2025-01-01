@@ -1,3 +1,4 @@
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import React,{useEffect} from 'react'
 import "./MainSec.css"
 import dot from '../../assets/dotted.svg'
@@ -6,6 +7,13 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 function MainSec() {
+
+  const [text] = useTypewriter({
+    words: ['Full Stack Developer', 'Programmer', 'Software Engineer'],
+    loop: {},
+    typeSpeed: 120,
+    deleteSpeed: 80,
+  });
 
   useEffect(()=> {
       AOS.init({duration: 3000, once: true});
@@ -21,7 +29,10 @@ function MainSec() {
                 <h3><b>Software Engineer.</b> A self-taught developer with an </h3>
                 <h3>interest in Computer Science.</h3>
             </div>
-            <p className='extra'><i className="fa-solid fa-bolt"></i>  Currently specializing in <span>Full Stack Development</span>.</p>
+            <p className='extra'><i className="fa-solid fa-bolt"></i>  Currently specializing in 
+                  <span> {text}</span>
+                  <span><Cursor/></span>
+            </p>
             <div className='get-logos'>
               <a href="https://github.com/kunalambarte17" target='_main'>
               <button type="button" className="btn btn-secondary">
