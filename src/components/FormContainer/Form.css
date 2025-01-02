@@ -84,6 +84,10 @@
   .submit-btn:hover {
     background-color: #e64a19;
   }
+
+  .color{
+    color: red;
+  }
   
   @media (width<990px){
     .contact-box{

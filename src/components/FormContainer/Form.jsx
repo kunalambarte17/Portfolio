@@ -52,7 +52,7 @@ function Form() {
       <div className='container contact-box'>
       <form onSubmit={onSubmit}>
         <div className="form-group">
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Name <b className='color'>*</b></label>
           <input type="text" 
           id="name" 
           name='name' 
@@ -60,27 +60,21 @@ function Form() {
           required />
         </div>
         <div className="form-group">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">Email <b className='color'>*</b></label>
           <input type="email" 
           id="email" name='email' 
           placeholder="Your@email.com" 
           required />
         </div>
         <div className="form-group">
-          <label htmlFor="budget">Budget</label>
-          <select id="budget" 
-          name='budget' 
-          required>
-            <option value="" disabled selected className='selected'>
-              Select...
-            </option>
-            <option value="low">$500</option>
-            <option value="medium">$1000</option>
-            <option value="high">$1500</option>
-          </select>
+          <label htmlFor="subject">Subject <b className='color'>*</b></label>
+          <input type="text" 
+          id="subject" name='subject' 
+          placeholder="Enter Subject" 
+          required />
         </div>
         <div className="form-group">
-          <label htmlFor="message">Message</label>
+          <label htmlFor="message">More about Project <b className='color'>*</b></label>
           <textarea
             id="message"
             name='message'
