@@ -5,6 +5,7 @@ import Auto from '../../assets/Pro_Img/Auto.png'
 import Food from '../../assets/Pro_Img/Food.png'
 import Villa from '../../assets/Pro_Img/Villa.png'
 import Rest from '../../assets/Pro_Img/Rest.png'
+import Chat from '../../assets/Pro_Img/Chat.png'
 
 import boot from '../../assets/skills/boot.png'
 import css from '../../assets/skills/css.png'
@@ -17,6 +18,7 @@ import npm from '../../assets/skills/npm.svg'
 import react from '../../assets/skills/react.png'
 import sql from '../../assets/skills/sql.png'
 import vite from '../../assets/skills/vite.png'
+import socket from '../../assets/skills/socket.svg'
 
 
 import AOS from 'aos'
@@ -126,6 +128,35 @@ function ProjectCard() {
                     <p className="c-text">This site is used to buy and sell the Car. User can also give car on rent.</p>
                     <div className='btn-pair2'>
                         <a href="https://github.com/kunalambarte17/AutoBots" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div className="card-box1">
+                <div className="img-box card-img-top special-img">
+                    <img src={Chat} alt="" />
+                </div>
+                <div className='contain'>
+                    <h5 className="c-title">ChatBot</h5>
+                    <div className='btn-pair d-flex'>
+                      <div className="skill-img-div react bg-[#007acc26]">
+                        <img src={react} alt="" className='skill-img' />
+                      </div>
+                      <div className="skill-img-div js bg-[#f0db4f26]">
+                        <img src={js} alt="" className='skill-img' />
+                      </div>
+                      <div className="skill-img-div vite bg-[#6e97fe26]">
+                        <img src={vite} alt="" className='skill-img' />
+                      </div> 
+                      <div className="skill-img-div npm bg-[#cc000026]">
+                        <img src={npm} alt="" className='skill-img' />
+                      </div>  
+                      <div className="skill-img-div next bg-[#cc000026]">
+                        <img src={socket} alt="" className='skill-img' />
+                      </div>           
+                    </div>
+                    <p className="c-text">This is realtime chat application used to chat with users. Many users can join a room at time.</p>
+                    <div className='btn-pair2'>
+                        <a href="https://github.com/kunalambarte17/RealTime_ChatBot" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
                     </div>
                 </div>
             </div>
