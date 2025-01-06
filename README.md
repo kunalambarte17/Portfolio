@@ -15,12 +15,12 @@ This portfolio is a curated collection of my professional and personal projects.
 
 
 ### 🚀 Technologies Used
-HTML5   
-CSS3   
-JavaScript   
-React   
-Vite   
-Vercel
+- HTML5   
+- CSS3   
+- JavaScript   
+- React   
+- Vite   
+- Vercel
 
 <!--
 ### 📈 Projects Included
@@ -49,6 +49,6 @@ Feel free to fork this repository and make changes. Contributions, issues, and f
 This repository is licensed under the MIT License.
 
 ### **📫 Contact**
-Name: Kunal Ambarte     
-GitHub: @kunalambarte17   
-Email: kunalambarte17@gmail.com
+- Name: Kunal Ambarte     
+- GitHub: @kunalambarte17   
+- Email: kunalambarte17@gmail.com
