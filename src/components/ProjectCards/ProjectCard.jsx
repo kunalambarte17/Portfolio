@@ -6,6 +6,7 @@ import Food from '../../assets/Pro_Img/Food.png'
 import Villa from '../../assets/Pro_Img/Villa.png'
 import Rest from '../../assets/Pro_Img/Rest.png'
 import Chat from '../../assets/Pro_Img/Chat.png'
+import Weather from '../../assets/Pro_Img/Weather.png'
 
 import boot from '../../assets/skills/boot.png'
 import css from '../../assets/skills/css.png'
@@ -157,6 +158,32 @@ function ProjectCard() {
                     <p className="c-text">This is realtime chat application used to chat with users. Many users can join a room at time.</p>
                     <div className='btn-pair2'>
                         <a href="https://github.com/kunalambarte17/RealTime_ChatBot" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div className="card-box1">
+                <div className="img-box card-img-top special-img">
+                    <img src={Weather} alt="" />
+                </div>
+                <div className='contain'>
+                    <h5 className="c-title">ChatBot</h5>
+                    <div className='btn-pair d-flex'>
+                      <div className="skill-img-div react bg-[#007acc26]">
+                        <img src={react} alt="" className='skill-img' />
+                      </div>
+                      <div className="skill-img-div js bg-[#f0db4f26]">
+                        <img src={js} alt="" className='skill-img' />
+                      </div>
+                      <div className="skill-img-div vite bg-[#6e97fe26]">
+                        <img src={vite} alt="" className='skill-img' />
+                      </div>  
+                      <div className="skill-img-div css bg-[#264de426]">
+                        <img src={css} alt="" className='skill-img' />
+                      </div>           
+                    </div>
+                    <p className="c-text">This is Weather Application. You can check the weather of any location you want.</p>
+                    <div className='btn-pair2'>
+                        <a href="https://github.com/kunalambarte17/Weather_WebApp" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
                     </div>
                 </div>
             </div>
