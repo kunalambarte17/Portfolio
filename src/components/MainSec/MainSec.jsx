@@ -16,7 +16,7 @@ function MainSec() {
   });
 
   useEffect(()=> {
-      AOS.init({duration: 3000, once: true});
+      AOS.init({duration: 3000, once: true, disable: 'mobile, tablet, phone'});
     }, [])
 
   return (

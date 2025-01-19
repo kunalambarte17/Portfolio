@@ -27,7 +27,7 @@ import 'aos/dist/aos.css'
 
 const Skills = () => {
   useEffect(()=> {
-    AOS.init({duration: 1000, once: true});
+    AOS.init({duration: 1000, once: true, disable: 'mobile, tablet, phone'});
   }, [])
   return (
     <div id='skills' className='skills' data-aos="slide-up">

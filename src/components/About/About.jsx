@@ -10,6 +10,7 @@ function About() {
         AOS.init({
             duration: 1000,
             once: true,
+            disable: 'mobile, tablet, phone'
         });
     }, [])
   return (

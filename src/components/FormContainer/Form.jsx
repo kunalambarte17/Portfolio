@@ -9,7 +9,7 @@ import 'aos/dist/aos.css'
 
 function Form() {
     useEffect(()=> {
-      AOS.init({duration: 1000, once: true});
+      AOS.init({duration: 1000, once: true, disable: 'mobile, tablet, phone'});
     }, [])
 
   const [result, setResult] = React.useState("");

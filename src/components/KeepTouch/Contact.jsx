@@ -6,7 +6,7 @@ import 'aos/dist/aos.css'
 
 function Contact() {
   useEffect(()=> {
-    AOS.init({duration: 1000, once: true});
+    AOS.init({duration: 1000, once: true, disable: 'mobile, tablet, phone'});
   }, [])
   return (
     <div className='container in-touch' data-aos="slide-up">
