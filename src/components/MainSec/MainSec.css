@@ -66,6 +66,9 @@
     .main-contents .h2 h2{
         font-size: 5rem;
     }
+    .dotted{
+        margin-bottom: -100px;
+    }
 }
 @media (width<900px){
     .main-contents{
@@ -87,6 +90,9 @@
     .extra{
         font-size: 18px !important;
     }
+    .dotted{
+        width: 120px;
+    }
 }
 @media (width<580px){
     .dotted{
@@ -97,6 +103,9 @@
     }
 }
 @media (width<430px){
+    .main-contents{
+        margin-top: 60px;
+    }
     .main-contents .h2 h2{
         font-size: 5rem;
     }
