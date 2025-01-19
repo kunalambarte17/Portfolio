@@ -60,7 +60,7 @@ function ProjectCard() {
                             <img src={npm} alt="" className='skill-img' />
                         </div>               
                     </div>
-                    <p className="c-text">This Site is used to order food. User can add items as many as they want. Can Check it in cart.</p>
+                    <p className="c-text">This Site is used to order food. User can add items in cart and can check it.</p>
                     <div className='btn-pair2'>
                         <a href="https://github.com/kunalambarte17/Tomato" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
                         <a href="https://tomato-yum.vercel.app/" className="btn btn-primary">Visit <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -155,7 +155,7 @@ function ProjectCard() {
                         <img src={socket} alt="" className='skill-img' />
                       </div>           
                     </div>
-                    <p className="c-text">This is realtime chat application used to chat with users. Many users can join a room at time.</p>
+                    <p className="c-text">This is realtime chat application used to chat. Many users can join a room at once.</p>
                     <div className='btn-pair2'>
                         <a href="https://github.com/kunalambarte17/RealTime_ChatBot" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
                     </div>
