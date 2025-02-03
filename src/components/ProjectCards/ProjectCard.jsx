@@ -7,6 +7,7 @@ import Villa from '../../assets/Pro_Img/Villa.png'
 import Rest from '../../assets/Pro_Img/Rest.png'
 import Chat from '../../assets/Pro_Img/Chat.png'
 import Weather from '../../assets/Pro_Img/Weather.png'
+import Yash from '../../assets/Pro_Img/Yash.png'
 
 import boot from '../../assets/skills/boot.png'
 import css from '../../assets/skills/css.png'
@@ -20,6 +21,7 @@ import react from '../../assets/skills/react.png'
 import sql from '../../assets/skills/sql.png'
 import vite from '../../assets/skills/vite.png'
 import socket from '../../assets/skills/socket.svg'
+import tailwind from "../../assets/skills/tailwind.png"
 
 
 import AOS from 'aos'
@@ -97,6 +99,39 @@ function ProjectCard() {
                     <div className='btn-pair2'>
                         <a href="https://github.com/kunalambarte17/WanderVillas" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
                         <a href="https://travelbroad.onrender.com/listings" className="btn btn-primary">Vist <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div className="card-box1">
+                <div className="img-box card-img-top">
+                    <img src={Yash} alt="" />
+                </div>
+                <div className='contain'>
+                    <h5 className="c-title">Yash2k25</h5>
+                    <div className='btn-pair d-flex'>
+                        <div className="skill-img-div react bg-[#007acc26]">
+                            <img src={react} alt="" className='skill-img' />
+                        </div>
+                        <div className="skill-img-div js bg-[#f0db4f26]">
+                            <img src={js} alt="" className='skill-img' />
+                        </div>  
+                        <div className="skill-img-div boot bg-[#6d10f426]">
+                            <img src={boot} alt="" className='skill-img' />
+                        </div>  
+                        <div className="skill-img-div vite bg-[#6e97fe26]">
+                            <img src={vite} alt="" className='skill-img' />
+                        </div>  
+                        <div className="skill-img-div npm bg-[#cc000026]">
+                            <img src={npm} alt="" className='skill-img' />
+                        </div>   
+                        <div className="skill-img-div tail bg-[#44a8b326]">
+                          <img src={tailwind} alt="" className='skill-img' />
+                        </div>                                   
+                    </div>
+                    <p className="c-text">This is a Site made for College fest 'Yash'.</p>
+                    <div className='btn-pair2'>
+                        <a href="https://github.com/laukik-24/YASH-25.0" className="btn btn-primary">Get Code <i className="fa-solid fa-code"></i></a>
+                        <a href="https://www.yash2k25.tech/" className="btn btn-primary">Visit <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
