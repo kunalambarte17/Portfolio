@@ -27,10 +27,10 @@ import 'aos/dist/aos.css'
 
 const Skills = () => {
   useEffect(()=> {
-    AOS.init({duration: 1000, once: true, disable: 'mobile, tablet, phone'});
+    AOS.init({duration: 2000, once: false , disable: 'mobile, tablet, phone'});
   }, [])
   return (
-    <div id='skills' className='skills' data-aos="slide-up">
+    <div id='skills' className='skills' data-aos="fade-zoom-in">
       <div className="skill-heading">
         <h1>Skills</h1>
       </div>

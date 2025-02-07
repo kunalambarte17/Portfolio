@@ -7,7 +7,7 @@ import Villa from '../../assets/Pro_Img/Villa.png'
 import Rest from '../../assets/Pro_Img/Rest.png'
 import Chat from '../../assets/Pro_Img/Chat.png'
 import Weather from '../../assets/Pro_Img/Weather.png'
-import Yash from '../../assets/Pro_Img/Yash.png'
+import Yash from '../../assets/Pro_Img/Yash.jpg'
 
 import boot from '../../assets/skills/boot.png'
 import css from '../../assets/skills/css.png'
