@@ -35,7 +35,7 @@ const Skills = () => {
         <h1>Skills</h1>
       </div>
       <div className="skill-container">
-        <div className="skill-tech-name">
+        <div className="skill-tech-namez">
           <h3 className='skill-tech-heading'>Frontend</h3>
           <ul className="skill-list">
             <li className='skill-list-li'>
