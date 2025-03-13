@@ -7,7 +7,7 @@ import Villa from '../../assets/Pro_Img/Villa.png'
 import Rest from '../../assets/Pro_Img/Rest.png'
 import Chat from '../../assets/Pro_Img/Chat.png'
 import Weather from '../../assets/Pro_Img/Weather.png'
-import Yash from '../../assets/Pro_Img/Yash.jpg'
+import Yash from '../../assets/Pro_Img/Yash.png'
 
 import boot from '../../assets/skills/boot.png'
 import css from '../../assets/skills/css.png'
@@ -268,8 +268,10 @@ function ProjectCard() {
                         <a href="https://anime-site-indol.vercel.app/" className="btn btn-primary">Visit <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
-            </div>
-            
+            </div>           
+        </div>
+        <div className='more-projects'>
+          <a href="https://github.com/kunalambarte17?tab=repositories" className="btn btn-primary more-proj-btn">For More Projects <i className="fa-solid fa-code"></i></a>
         </div>
     </div>
 

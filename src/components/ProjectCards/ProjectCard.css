@@ -71,6 +71,13 @@ img{
     padding-left: 30px;
     gap: 2rem;
 }
+.more-projects{
+    display: flex;
+    justify-content: center;
+}
+.more-proj-btn{
+    font-size: larger;
+}
 
 @media (width<1300px){
     .card-container{
