@@ -201,7 +201,7 @@ function ProjectCard() {
                     <img src={Weather} alt="" />
                 </div>
                 <div className='contain'>
-                    <h5 className="c-title">ChatBot</h5>
+                    <h5 className="c-title">Weather App</h5>
                     <div className='btn-pair d-flex'>
                       <div className="skill-img-div react bg-[#007acc26]">
                         <img src={react} alt="" className='skill-img' />
