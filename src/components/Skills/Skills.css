@@ -1,108 +1,234 @@
-.skills{
-    margin: 8rem 8rem 0 8rem;
-}
-.skill-name{
-    color: white;
-    background-color: transparent;
-}
-.skill-heading{
-    text-align: center;
-}
-.skill-heading h1{
-    font-weight: 700;
-    font-size: 4rem;
-    color: white;
-}
-.skill-container{
-    margin: 3rem 10rem 0 10rem;
+/* -------------------------
+   Base / existing styles
+   ------------------------- */
+:root {
+  /* default scroll duration -- overwritten by inline style on ul via CSS var */
+  --scroll-duration: 18s;
 }
 
-.skill-tech-heading{
-    font-size: xx-large;
-    font-weight: 700;
-    color: #ffffff70;
-    margin-bottom: 1rem;
-    margin-left: 2rem;
+.skills {
+  margin: 8rem 8rem 0 8rem;
 }
 
-.skill-list{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 1rem;
-    padding-left: 0px;
+.skill-name {
+  color: #ffffffd9;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.35px;
 }
 
-.skill-list-li{
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    border-radius: 6px;
-    padding: 11px 12px;
-    background-color: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(32px);
+.skill-heading {
+  text-align: center;
 }
 
-.skill-img-div{
-    padding: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    border-radius: 0.5rem;
+.skill-heading h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: white;
 }
 
-.skill-img{
-    flex-shrink: 0; 
-    height: 1.25rem; 
-    width: 1.25rem; 
+.skill-container {
+  margin-top: 3rem;
 }
 
+/* no-titles container tweak */
+.no-titles {
+  margin: 2rem 0;
+}
+
+/* -------------------------
+   Skill item base styles
+   ------------------------- */
+
+.skill-list {
+  /* fallback; will normally be overridden by .infinite-scroll .skill-list */
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+  padding-left: 0px;
+  margin: 0;
+  list-style: none;
+}
+
+.skill-list-li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 10px;
+  padding: 14px 20px;         /* increased padding for readability */
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255,255,255,0.10);
+  backdrop-filter: blur(8px);
+  min-width: 130px;          /* avoids text clipping */
+  height: 52px;              /* consistent height */
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.skill-img-div {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  flex: 0 0 auto;
+}
+
+.skill-img {
+  flex-shrink: 0;
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+/* colored backgrounds for icons */
 .react{ background-color: #007acc26 ;}
 .js{ background-color: #f0db4f26;}
 .html{ background-color: #dd4b2526;}
-.css{background-color: #264de426;}
-.tail{background-color: #44a8b326;}
-.boot{background-color: #6d10f426;}
-.material{background-color: #7ebae226;}
-.node{background-color: #6fa66026;}
-.express{background-color: #6fa66026;}
-.mongo{background-color: #6fa66026;}
-.sql{background-color: #3bbdb314;}
-.next{background-color: #ffffff14;}
-.vite{background-color: #6e97fe26;}
-.vs{background-color: #33abe326;}
-.nvim{background-color: #55e53926;}
-.git{background-color: #e671711f;}
-.hub{background-color: #ffffff14;}
-.npm{background-color: #cc000026;}
-.figma{background-color: #ffffff14;}
+.css{ background-color: #264de426;}
+.tail{ background-color: #44a8b326;}
+.boot{ background-color: #6d10f426;}
+.material{ background-color: #7ebae226;}
+.node{ background-color: #6fa66026;}
+.express{ background-color: #6fa66026;}
+.mongo{ background-color: #6fa66026;}
+.sql{ background-color: #3bbdb314;}
+.next{ background-color: #ffffff14;}
+.vite{ background-color: #6e97fe26;}
+.vs{ background-color: #33abe326;}
+.nvim{ background-color: #55e53926;}
+.git{ background-color: #e671711f;}
+.hub{ background-color: #ffffff14;}
+.npm{ background-color: #cc000026;}
+.figma{ background-color: #ffffff14;}
 
+/* -------------------------
+   Infinite scroll styles
+   ------------------------- */
 
-@media (width<1287px){
-    .skills{
-        margin: 4rem 2rem 0 2rem;
-    }
-    .skill-list{
-        grid-template-columns: repeat(3,1fr);
-    }
-    .skill-container{
-        margin: 0;
-    }
-    .skill-heading{
-        margin-bottom: 2rem;
-    }
+/* wrapper hides overflow */
+.infinite-scroll {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 0.5rem 0;
 }
-@media (width<950px) {
-    .skill-heading h1{
-        font-size: 3rem;
-    }
+
+/* inside infinite-scroll we convert the list to a single-row flex container */
+.infinite-scroll .skill-list {
+  display: flex;              /* horizontal flow */
+  gap: 2.2rem;                /* increased spacing between items */
+  width: max-content;         /* shrink to content width */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  align-items: center;
+  /* read duration from CSS var (set inline or default) */
+  animation-duration: var(--scroll-duration, 18s);
 }
-@media (width<700px){
-    .skill-list{
-        padding-left:0px ;
-    }
+
+/* left-scrolling band (moves items toward left) */
+.scroll-left {
+  animation-name: scrollLeft;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: var(--scroll-duration, 18s);
 }
-@media (width<650px){  
-    .skill-list{
-        grid-template-columns: repeat(2,1fr);
-    }
+
+/* right-scrolling band (moves items toward right) */
+.scroll-right {
+  animation-name: scrollRight;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: var(--scroll-duration, 18s);
+}
+
+/* pause on hover for accessibility */
+.infinite-scroll .skill-list:hover {
+  animation-play-state: paused;
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .infinite-scroll .skill-list {
+    animation: none !important;
+  }
+}
+
+/* The actual scrolling animations:
+   Because we duplicate content, translating -50% loops seamlessly.
+   scrollLeft: 0 -> -50%  (items move left)
+   scrollRight: -50% -> 0 (items move right)
+*/
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* -------------------------
+   Responsive adjustments
+   ------------------------- */
+@media (max-width:1287px){
+  .skills {
+    margin: 4rem 2rem 0 2rem;
+  }
+  .skill-list {
+    grid-template-columns: repeat(3,1fr);
+  }
+  .skill-container {
+    margin: 0;
+  }
+  .skill-heading {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width:950px) {
+  .skill-heading h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width:700px){
+  .skill-list{
+    padding-left:0px ;
+  }
+
+  /* For very small screens, reduce icon size and spacing */
+  .skill-img{
+    height: 1.25rem;
+    width: 1.25rem;
+  }
+  .skill-list-li{
+    padding: 10px 12px;
+    gap: 0.5rem;
+    min-width: 110px;
+    height: 44px;
+  }
+  .skill-name {
+    font-size: 0.95rem;
+  }
+}
+@media (max-width:650px){
+  .skill-list{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+/* Slow down scroll on very small screens */
+@media (max-width:500px) {
+  .scroll-left, .scroll-right {
+    animation-duration: 22s;
+  }
 }
