@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react'
 import "./About.css"
-import avatar from "../../assets/avatar.webp"
+// import avatar from "../../assets/avatar.webp"
+import myPhoto from "../../assets/KunalA.jpg"
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -31,7 +32,7 @@ function About() {
             </div>
 
             <div className='box2'>
-                    <img src={avatar} alt="" />
+                    <img src={myPhoto} alt="" />
             </div>
         </div>
     </div>
